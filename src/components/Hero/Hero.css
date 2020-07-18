@@ -1,0 +1,57 @@
+.Hero .Top {
+  position: relative;
+  height: 40rem;
+}
+
+.Hero .BgImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("./hero-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  opacity: 0.5;
+  z-index: 0;
+}
+.Hero .BgColor {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  z-index: -1;
+}
+
+.Hero .Logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hero img {
+  max-width: 360px;
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.Hero .Caption {
+  position: relative;
+  padding: 2rem 1rem;
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.Hero .Caption .BgImg {
+  background-attachment: scroll;
+}

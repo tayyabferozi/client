@@ -1,0 +1,52 @@
+.Footer {
+  background-color: #323232;
+}
+
+.Footer .container {
+  border-top: 0.5px solid #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.Footer .cta {
+  text-align: right;
+  color: #fff;
+}
+
+.Footer .cta h2 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.Footer .cta p {
+  margin-bottom: 1.5rem;
+  font-style: oblique;
+  font-weight: 600;
+}
+
+.Footer img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.Footer button {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  display: block;
+  width: 9rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Footer img {
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+}
